@@ -23,13 +23,6 @@ Route::get('/services', function () {
 
 })->name('services');
 
-Route::get('/greenkin', function () {
-
-    return view('pages.services');
-
-})->name('greenkin');
-
-
 Route::get('/contact', function () {
 
     return view('pages.contact');
@@ -37,3 +30,31 @@ Route::get('/contact', function () {
 })->name('contact');
 
 Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
+
+/// GreenKin Services -------------------------------------
+
+Route::get('/greenkin', function () {
+
+    return view('greenkin.home');
+    
+})->name('greenkin.home');
+
+Route::get('/greenkin/offres', function () {
+
+    return view('greenkin.offres');
+
+})->name('greenkin.offres');
+
+Route::get('/greenkin/services', function () {
+
+    return view('greenkin.services');
+
+})->name('greenkin.services');
+
+Route::get('/greenkin/contact', function () {
+
+    return view('greenkin.contact');
+ 
+})->name('greenkin.contact');
+
+
