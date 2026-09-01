@@ -57,38 +57,72 @@
             <div>
                 <h3 class="text-3xl font-extrabold text-[#001f93] mb-8">Informations de contact</h3>
                 <div class="space-y-6">
+                    
+                    <!-- Adresse -->
                     <div class="flex items-start">
-                        <span class="text-2xl mr-4">📍</span>
+                        <span class="w-12 h-12 flex items-center justify-center rounded-xl bg-[#001f93]/10 text-2xl mr-4">
+                            📍
+                        </span>
                         <div>
-                            <h4 class="font-bold text-gray-900">Adresse</h4>
-                            <p class="text-gray-600 font-semibold">Kinshasa, République Démocratique du Congo</p>
+                            <h4 class="font-bold text-[#001f93]">
+                                Adresse
+                            </h4>
+                            <p class="text-gray-600 font-normal">
+                                Kinshasa, République Démocratique du Congo
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Téléphone -->
                     <div class="flex items-start">
-                        <span class="text-2xl mr-4">📞</span>
+                        <span class="w-12 h-12 flex items-center justify-center rounded-xl bg-[#5392c5]/10 text-2xl mr-4">
+                            📞
+                        </span>
                         <div>
-                            <h4 class="font-bold text-gray-900">Téléphone</h4>
-                            <p class="text-gray-600 font-semibold">+243 983 671 853</p>
+                            <h4 class="font-bold text-[#001f93]">
+                                Téléphone
+                            </h4>
+                            <p class="text-gray-600">
+                                +243 983 671 853
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Email -->
                     <div class="flex items-start">
-                        <span class="text-2xl mr-4">✉️</span>
+                        <span class="w-12 h-12 flex items-center justify-center rounded-xl bg-[#e8488e]/10 text-2xl mr-4">
+                            ✉️
+                        </span>
                         <div>
-                            <h4 class="font-bold text-gray-900">Email</h4>
-                            <p class="text-gray-600 font-semibold">info@espoir-afrique.com</p>
+                            <h4 class="font-bold text-[#001f93]">
+                                Email
+                            </h4>
+
+                            <p class="text-gray-600">
+                                info@espoir-afrique.com
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Zone -->
                     <div class="flex items-start">
-                        <span class="text-2xl mr-4">🌍</span>
+                        <span class="w-12 h-12 flex items-center justify-center rounded-xl bg-[#f5a335]/10 text-2xl mr-4">
+                            🌍
+                        </span>
+
                         <div>
-                            <h4 class="font-bold text-gray-900">Zone d'intervention</h4>
-                            <p class="text-gray-600 font-semibold">Couverture complète de toutes les communes de Kinshasa</p>
+                            <h4 class="font-bold text-[#001f93]">
+                                Zone d'intervention
+                            </h4>
+                            <p class="text-gray-600">
+                                Couverture complète de toutes les communes de Kinshasa
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="mt-12">
-                    <p class="font-bold text-gray-900 text-lg mb-4">Nous suivre</p>
+                    <p class="font-bold text-[#001f93] text-lg mb-4">Nous suivre</p>
                     <div class="flex space-x-4">
                         <a href=""></a>
                         <a href="https://www.facebook.com/share/1LiS17XNsU/?mibextid=wwXIfr" 
@@ -139,7 +173,7 @@
                         <textarea name="message" rows="4" required placeholder="Dites-nous en plus sur votre projet..." class="w-full p-4 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-600 transition"></textarea>
                     </div>
 
-                    <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-xl font-bold hover:bg-blue-800 transition shadow-lg mt-2">
+                    <button type="submit" class="w-full bg-[#001f93] text-white py-4 rounded-xl font-bold hover:bg-blue-800 transition shadow-lg mt-2">
                         Envoyer le message
                     </button>
                 </form>

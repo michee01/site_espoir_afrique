@@ -10,9 +10,9 @@
             <div class="grid md:grid-cols-2 gap-16 items-center">            
                 <div class="relative">
                     <img src="{{asset('images/EA/equipe.png')}}" alt="Équipe Espoir Afrique" class="rounded-3xl shadow-2xl w-full h-[500px] object-cover">
-                    <div class="absolute -bottom-8 -right-8 bg-[#001f93] text-white p-8 rounded-2xl shadow-lg hidden md:block">
+                    <div class="absolute text-[#f5a335] -bottom-8 -right-8 bg-[#001f93] text-white p-8 rounded-2xl shadow-lg hidden md:block">
                         <p class="text-4xl font-extrabold">10+</p>
-                        <p class="text-sm uppercase tracking-widest">Années de succès</p>
+                        <p class="text-sm font-bold uppercase tracking-widest">Années de succès</p>
                     </div>
                 </div>
                 <div>
@@ -52,6 +52,9 @@
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
+                <h2 class="text-[#e8488e] font-bold uppercase tracking-widest text-sm mb-2">
+                    Notre engagement
+                </h2>
                 <h3 class="text-3xl md:text-4xl font-extrabold text-[#001f93] leading-tight">
                     Plus qu'un service, une promesse de qualité
                 </h3>
@@ -89,6 +92,9 @@
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-16">
+                <h2 class="text-[#e8488e] font-bold uppercase tracking-widest text-sm mb-2">
+                    Nos Valeurs
+                </h2>
                 <h3 class="text-3xl md:text-4xl font-extrabold text-[#001f93]">L'excellence au cœur de notre métier</h3>
                 <p class="mt-4 text-gray-600 text-md max-w-2xl mx-auto">
                     Nous fusionnons notre expertise locale avec des exigences de qualité mondiales pour vous offrir un service inégalé à Kinshasa.

@@ -211,7 +211,7 @@
 
                 <!-- Bouton -->
                 <div>
-                    <a href="{{route('greenkin.contact')}}" class="inline-block bg-green-600 text-white px-10 py-4 rounded-xl font-bold hover:bg-green-700 transition shadow-lg transform hover:-translate-y-1">
+                    <a href="{{route('greenkin.contact')}}" class="inline-block bg-[#136A33] text-white px-10 py-4 rounded-xl font-bold hover:bg-[#64B331] transition shadow-lg transform hover:-translate-y-1">
                         Nous contacter
                     </a>
                 </div>

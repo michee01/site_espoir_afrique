@@ -28,7 +28,9 @@
             </div>
 
             <div class="hidden md:block">
-                <a href="{{route('contact')}}" class="bg-blue-600 text-white px-6 py-2 rounded-lg font-bold hover:bg-blue-800 transition shadow-lg">Devis gratuit</a>
+                <a href="{{route('contact')}}" class="bg-[#001f93] text-white px-6 py-2 rounded-lg font-bold hover:bg-[#e8488e] transition shadow-lg">
+                    Devis gratuit
+                </a>
             </div>
 
             <div class="md:hidden">
@@ -39,7 +41,7 @@
         </div>
     </div>
 
-    <div id="mobile-menu" class="hidden md:hidden bg-gray-50 border-t py-4 px-4 space-y-4">
+    <div id="mobile-menu" class="hidden md:hidden bg-gray-50 font-medium border-t py-4 px-4 space-y-4">
         <a href="{{route('home')}}" class="block hover:text-[#e8488e] py-2 transition duration-300">Accueil</a>
         <a href="{{route('apropos')}}" class="block hover:text-[#e8488e] py-2 transition duration-300">À propos</a>
         <a href="{{route('services')}}" class="block hover:text-[#e8488e] py-2 transition duration-300">Services</a>

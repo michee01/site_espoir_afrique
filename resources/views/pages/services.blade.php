@@ -15,7 +15,7 @@
             <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6">
                 Nos <span class="text-[#f5a335]">services</span> 
             </h1>
-            <p class="text-gray-200 max-w-xl mx-auto text-lg">
+            <p class="text-gray-200 max-w-xl mx-auto font-semibold text-lg">
                 Découvrez nos solutions complètes, du nettoyage de bureaux à l'aménagement de vos espaces verts, avec une qualité irréprochable.
             </p>
         </div>
@@ -366,7 +366,7 @@
     </section>
 
     <!-- CTA -->
-    <section class="py-20 bg-gray-100 mb-20">
+    <section class="py-20  mb-20">
         <div class="max-w-5xl mx-auto px-6">
             <div class="bg-[#001f93] rounded-3xl p-10 md:p-16 flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
                 <div class="text-white text-center md:text-left">

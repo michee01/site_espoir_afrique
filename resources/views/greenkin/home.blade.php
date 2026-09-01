@@ -22,7 +22,7 @@
                 <a href="{{route('greenkin.services')}}" class="bg-[#136A33] hover:bg-[#64B331] text-white px-8 py-4 rounded-lg font-medium transition duration-300 shadow-lg">
                     Nos services
                 </a>
-                <a href="{{route('greenkin.contact')}}" class="bg-white text-[#136A33] hover:bg-[#136A33] hover:text-white px-8 py-4 rounded-lg font-medium transition duration-300 shadow-lg">
+                <a href="{{route('greenkin.contact')}}" class="bg-white text-[#136A33] hover:bg-[#64B331] hover:text-white px-8 py-4 rounded-lg font-medium transition duration-300 shadow-lg">
                     Nous contacter
                 </a>
             </div>
@@ -402,7 +402,7 @@
                         Découvrir nos services
                     </a>
                     <!-- Bouton Secondaire -->
-                    <a href="{{route('greenkin.contact')}}" class="bg-white border-2 border-gray-300 text-green-700 px-8 py-4 rounded-xl font-bold hover:bg-green-700 hover:text-white transition">
+                    <a href="{{route('greenkin.contact')}}" class="bg-white border-2 border-gray-300 text-green-700 px-8 py-4 rounded-xl font-bold hover:bg-green-500 hover:text-white transition">
                         Nous contacter
                     </a>
                 </div>

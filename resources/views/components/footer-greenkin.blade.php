@@ -5,7 +5,7 @@
         <!-- À propos -->
         <div>
             <h3 class="text-2xl font-bold mb-6 text-green-500">GreenKin</h3>
-            <p class="text-gray-400 leading-relaxed text-justify">
+            <p class="text-[#E8E8E8]/80 leading-relaxed text-justify">
                 La branche innovante d'Espoir Afrique. Nous transformons la gestion des déchets à Kinshasa grâce à des solutions technologiques et durables pour une ville plus propre.
             </p>
         </div>
